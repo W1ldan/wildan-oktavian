@@ -1,0 +1,386 @@
+#runningtext {
+    width: 99,50%;
+    height: 25px;
+    padding: 3px;
+    margin: 3px 0px 3px 0px;
+    background-color:silver;
+    color:black;
+    position: relative;
+    font-family: 'comic sans ms';
+}
+
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #222831;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:#FFFFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #222831;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #222831;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #222831;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background:#424874;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background:#FF165D ;
+    text-decoration: none;
+}
+
+
+a.tbl-pink:hover {
+    background:#424874;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+table {
+    background-color: #222831;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align:left;
+    width: 1000px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tbl-merah {
+    background:#424874;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+th {
+    text-align:center;
+}
+
+.education-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto-sekolah {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.foto-sekolah img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.foto-sekolah p {
+    font-family:'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #222831;
+}
+
+.experience {
+    font-family: 'comis sans ms';
+    font-size:large;
+}
+
+#inspiration {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;   
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #222831;
+    width: 100%;
+    line-height: 50px;
+}
+
+p.deskripsi {
+    font-family: 'comic sans ms';
+    font-size: 130%;
+}
+
+.right {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px; 
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+nav .menu {
+    width: 100%;
+    margin: 0;
+}
+
+nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+}
+nav .menu ul li {
+    display: inline-block;
+    float: none;
+}
+
+section {
+    display: block;
+}
+
+section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    height: auto;
+}
+
+.education {
+    width: 100%;
+    height: auto;
+}
+
+.experience {
+    width: 100%;
+    height: auto;
+}
+
+.footer-section {
+    width: 100%;
+    height: auto;
+}
+
+.ispiration {
+    width: 100%;
+    height: auto;
+}
+
+p.ispiration {
+    width: 100%;
+    height: auto;
+}
+
+.experience-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NU {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.NU img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.skill-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Skills {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Skills img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.poison-section {
+    width: 100%;
+    height: auto;
+
+}
+
+.skills {
+    width: 100%;
+    height: auto;
+}
+
+li.skills {
+    width: 100%;
+    height: auto;
+}
+
+.home-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Wildan {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Wildan img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.medsos-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tt {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.tt img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+
